@@ -412,6 +412,96 @@ namespace Notifo.Domain.Integrations.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Access Key.
+        /// </summary>
+        internal static string Sms77_AccessKeyLabel {
+            get {
+                return ResourceManager.GetString("Sms77_AccessKeyLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to send sms to &apos;{0}&apos;: {1}.
+        /// </summary>
+        internal static string Sms77_Error {
+            get {
+                return ResourceManager.GetString("Sms77_Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to send sms to &apos;{0}&apos;..
+        /// </summary>
+        internal static string Sms77_ErrorUnknown {
+            get {
+                return ResourceManager.GetString("Sms77_ErrorUnknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sms77 integration using custom Access Key..
+        /// </summary>
+        internal static string Sms77_Description {
+            get {
+                return ResourceManager.GetString("Sms77_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sms77.
+        /// </summary>
+        internal static string Sms77_Name {
+            get {
+                return ResourceManager.GetString("Sms77_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone Number.
+        /// </summary>
+        internal static string Sms77_PhoneNumberLabel {
+            get {
+                return ResourceManager.GetString("Sms77_PhoneNumberLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Country specific phone numbers..
+        /// </summary>
+        internal static string Sms77_PhoneNumbersDescription {
+            get {
+                return ResourceManager.GetString("Sms77_PhoneNumbersDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone Numbers.
+        /// </summary>
+        internal static string Sms77_PhoneNumbersLabel {
+            get {
+                return ResourceManager.GetString("Sms77_PhoneNumbersLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preconfigured Sms77 integration for SMS messages..
+        /// </summary>
+        internal static string Sms77Integrated_Description {
+            get {
+                return ResourceManager.GetString("Sms77Integrated_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sms77 (Integrated).
+        /// </summary>
+        internal static string Sms77Integrated_Name {
+            get {
+                return ResourceManager.GetString("Sms77Integrated_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Send emails using a custom email server..
         /// </summary>
         internal static string SMTP_Description {
